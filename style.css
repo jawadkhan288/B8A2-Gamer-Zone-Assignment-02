@@ -11,6 +11,15 @@ nav{
     justify-content: space-between;
     align-items: center;
 }
+nav>.logo>img{
+    width: 70px;
+    height: 36px;
+    
+}
+.logo{
+    align-items: center;
+    display: flex;
+}
 nav>ul {
     display: flex;
 }
@@ -21,6 +30,10 @@ nav li{
     font-size: 1rem;
 
 }
+.G-color{
+    color: #F948B2;
+}
+
 .follow-section{
     margin-left: 30px;
     display: flex;
