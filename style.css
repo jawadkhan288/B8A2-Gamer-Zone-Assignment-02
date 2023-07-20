@@ -1,6 +1,6 @@
 body{
     font-family: 'Open Sans', sans-serif;
-    height: 3000px;
+    height: 4000px;
 }
 .navbar{
     margin: 0 80px 0 80px;
@@ -273,4 +273,72 @@ line-height: 60px; /* 125% */
     position: relative;
     top: -230px;
     left: -136px;
+}
+/* Game section */
+.game-name{
+    color: #0B0223;
+
+font-size: 12px;
+
+font-weight: 600;
+
+}
+.game-section{
+    gap: 20px;
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+    margin: 0 110px 0 110px;
+    padding: 50px;
+
+}
+.game-div1{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+}
+.game-div2{
+    padding: 0 50px;
+    margin-top: 50px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+}
+.games{
+    
+    width: 210px;
+    gap: 10px;
+    flex-shrink: 0;
+    border-radius: 50px;
+    background: #FFF;
+    display: flex;
+}
+footer{
+   
+    text-align: center;
+    justify-content: center;
+    background: #0B0223;
+}
+.footer-logo{
+    margin-top: 50px;
+    text-align: center;
+    justify-content: center;
+}
+.logo-name2{
+color: #FFF;
+}
+.footer-a{
+    color: #FFF;
+
+}
+.footer-ul{
+    display: flex;
+    justify-content: space-between;
+}
+.inner-footer{
+    padding: 0 100px;
+}
+.footer-icon{
+    justify-content: center;
+    text-align: center;
 }
