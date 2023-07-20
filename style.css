@@ -20,6 +20,14 @@ nav>.logo>img{
     align-items: center;
     display: flex;
 }
+.logo-name{
+    text-align: center;
+font-family: Work Sans;
+font-size: 45px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
 nav>ul {
     display: flex;
 }
@@ -35,9 +43,12 @@ nav li{
 }
 
 .follow-section{
+    top: 10px;
     margin-left: 30px;
     display: flex;
-    background-color: rgba(71, 71, 71, 0.2);;
+    flex-shrink: 0;
+    background: rgba(11, 2, 35, 0.10);
+
     background-size: 56px;
     padding: 5px;
     border-radius: 8px;
@@ -47,6 +58,13 @@ nav li{
     margin-right: 10px;
 }
 nav li a {
+    color: #3C354F;
+text-align: center;
+
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
     text-decoration: none;
     color: #424242;
 }
@@ -192,6 +210,7 @@ font-weight: 500;
   /* Styling for the overlay */
   .shadow {
     position: absolute;
+    border-radius: 16px;
     top: 0;
     left: 0;
     width: 100%;
@@ -199,6 +218,7 @@ font-weight: 500;
     background-color: rgba(0, 0, 0, 0.7); /* Add some transparency to the overlay */
     color:#F948B2;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     opacity: 0; /* Hide the overlay by default */
@@ -207,6 +227,8 @@ font-weight: 500;
   
   /* Styling for the play icon */
   .icon {
+    color: #ffffff;
+    display: inline;
     font-size: 2rem;
     margin-right: 10px;
   }
@@ -215,4 +237,40 @@ font-weight: 500;
   .image-container:hover .shadow {
     opacity: 1;
   }
+
+  /* play-section */
+
+  .inner-play-section{
+    margin: 102px 80px 60px 80px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+  }
+  .text-diffrent-color2{
+    color:#FF42A5;
+  }
+
+  .play-section-title{
+    margin: 0px;
+    text-align: right;
+    
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: 60px; /* 125% */
+  }
+
+  .inner-txt{
+    /* padding: 0 30px; */
+    margin: 150px;
+    text-align: right;
+  }
   
+.inner-img1{
+    position: relative;
+}
+.inner-img2{
+    position: relative;
+    top: -230px;
+    left: -136px;
+}
